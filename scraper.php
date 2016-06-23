@@ -2,7 +2,7 @@
 require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
 
-$html = scraperwiki::scrape("http://foo.com");
+$html = scraperwiki::scrape("http://indiegogo.com");
 
 $dom = new simple_html_dom();
 $dom->load($html);
